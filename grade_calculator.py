@@ -1,5 +1,8 @@
 def get_students():
-    return []
+    return [
+        {"code": '001', "score": 81},
+        {"code": '002', "score": 74},
+    ]
 
 def calculate_grade(student): 
     if student['score'] > 80:
